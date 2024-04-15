@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Brocher.css"
-import conferenceImage from "../assets/conferenceImage.png";
+import conferenceImage from "../../assets/conferenceImage.png";
 
 import { CountdownTimer } from './CountdownTimer'
 export const Brocher = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import igc from "../assets/igc.png";
+import igc from "../../assets/igc.png";
 export const Header = () => {
   return (
     <header className="App-header">

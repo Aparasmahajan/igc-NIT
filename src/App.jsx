@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { Footer } from "./Footer";
-import { Navbar } from "./nav/Navbar";
-import { Header } from "./header/Header";
-import { Brocher } from "./brocher/Brocher";
+import { Header } from "./components/header/Header";
+import { Navbar } from "./components/nav/Navbar";
+import { Brocher } from "./components/brocher/Brocher";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
