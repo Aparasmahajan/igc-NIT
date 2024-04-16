@@ -11,6 +11,8 @@ function App() {
       <Header/>
       <Navbar/>
       <Brocher/>
+      <Brocher/>
+      <Brocher/>
     <Footer/>
     </div>
   );
