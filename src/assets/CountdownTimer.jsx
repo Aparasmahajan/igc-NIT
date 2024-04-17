@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 export const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    // let year = new Date().getFullYear();
     const difference = +new Date(`${2025}-12-19`) - +new Date();
     let timeLeft = {};
 
@@ -18,6 +17,10 @@ export const CountdownTimer = () => {
     return timeLeft;
   };
 
+  const formatLabel = (value, label) => {
+    return value === 1 ? label.slice(0, -1) : label;
+  };
+
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
@@ -29,11 +32,34 @@ export const CountdownTimer = () => {
   });
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', position: 'fixed', top: '60%', right: '0', width: '62px', zIndex: '999' ,padding: '1px'}}>
-      <div className="bg-cyan-500" style={{justifyContent: 'center'}}>Days {timeLeft.days}</div>
-      <div className="bg-cyan-500" style={{justifyContent: 'center' }}>Hours {timeLeft.hours}</div>
-      <div className="bg-cyan-500" style={{justifyContent: 'center' }}>Minutes {timeLeft.minutes}</div>
-      <div className="bg-cyan-500" style={{justifyContent: 'center' }}>Seconds {timeLeft.seconds}</div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-end",
+        position: "fixed",
+        top: "60%",
+        right: "0",
+        zIndex: "999",
+        padding: "0px",
+      }}
+    >
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
+        {formatLabel(timeLeft.days, "Days")} <br />
+        <p className="font-bold">{timeLeft.days}</p>
+      </div>
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
+        {formatLabel(timeLeft.hours, "Hours")} <br />
+        <p className="font-bold">{timeLeft.hours}</p>
+      </div>
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
+        {formatLabel(timeLeft.minutes, "Minutes")} <br />
+        <p className="font-bold">{timeLeft.minutes}</p>
+      </div>
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
+        {formatLabel(timeLeft.seconds, "Seconds")} <br />
+        <p className="font-bold">{timeLeft.seconds}</p>
+      </div>
     </div>
   );
 };
