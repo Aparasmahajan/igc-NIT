@@ -18,7 +18,7 @@ export const CountdownTimer = () => {
   };
 
   const formatLabel = (value, label) => {
-    return value === 1 ? label.slice(0, -1) : label;
+    return value <= 1 ? label.slice(0, -1) : label;
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
