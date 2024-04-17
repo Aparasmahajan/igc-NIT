@@ -29,11 +29,11 @@ export const CountdownTimer = () => {
   });
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', position: 'fixed', top: '60%', right: '0', width: '55px', backgroundColor: 'cyan', zIndex: '999' ,padding: '1px'}}>
-      <div style={{ backgroundColor: 'cyan', justifyContent: 'center'}}>{timeLeft.days} Days</div>
-      <div style={{ backgroundColor: 'cyan', justifyContent: 'center' }}>{timeLeft.hours} Hours</div>
-      <div style={{ backgroundColor: 'cyan', justifyContent: 'center' }}>{timeLeft.minutes} Minutes</div>
-      <div style={{ backgroundColor: 'cyan', justifyContent: 'center' }}>{timeLeft.seconds} Seconds</div>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', position: 'fixed', top: '60%', right: '0', width: '62px', zIndex: '999' ,padding: '1px'}}>
+      <div className="bg-cyan-500" style={{justifyContent: 'center'}}>Days {timeLeft.days}</div>
+      <div className="bg-cyan-500" style={{justifyContent: 'center' }}>Hours {timeLeft.hours}</div>
+      <div className="bg-cyan-500" style={{justifyContent: 'center' }}>Minutes {timeLeft.minutes}</div>
+      <div className="bg-cyan-500" style={{justifyContent: 'center' }}>Seconds {timeLeft.seconds}</div>
     </div>
   );
 };
