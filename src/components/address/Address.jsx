@@ -3,8 +3,8 @@ import React from 'react'
 
 export const Address = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
-      <h3 className="text-3xl font-bold text-center mb-4">Conference Secretariat</h3>
+    <section className="container mx-auto px-4 py-8 bg-blue-50">
+      <h3 className="text-2xl font-bold text-center mb-4">Conference Secretariat</h3>
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="mr-4 md:mr-8">
           <p className="text-lg font-medium mb-1">Dr Arvind K Agnihotri</p>
