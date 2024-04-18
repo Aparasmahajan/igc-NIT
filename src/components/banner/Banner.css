@@ -1,0 +1,19 @@
+.animation {
+    animation-name: move;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  @keyframes move {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+  }
+  
+  .animation:hover {
+    animation-play-state: paused;
+  }
+  

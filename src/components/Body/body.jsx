@@ -15,9 +15,9 @@ const Body = () => {
           <h1 className="mb-5 font-bold text-2xl text-orange-400 text-left">
             About
           </h1>
-          <h1 className="text-5xl mb-10 text-cyan-700 text-left font-bold">
-            The Aurangabad Chapter of the <br /> Indian Geotechnical Society
-            Indian Geotechnical Society
+          <h1 className="text-4xl mb-10 text-cyan-700 text-left font-bold">
+            The NITJ Chapter of the <br /> Indian Geotechnical Society Indian
+            Geotechnical Society
           </h1>
           <p className="text-lg mb-10 text-left">
             It is established its 46th Local chapter at Aurangabad on 3rd
@@ -56,7 +56,7 @@ const Body = () => {
             <h1 className="mb-5 font-bold text-2xl text-orange-400 text-left">
               About
             </h1>
-            <h1 className="text-5xl mb-10 text-white text-left font-bold">
+            <h1 className="text-4xl mb-10 text-white text-left font-bold">
               IGS AND IGC 2025
             </h1>
             <p className="text-lg mb-10 text-left">
@@ -117,7 +117,7 @@ const Body = () => {
           <h1 className="mb-5 font-bold text-2xl text-orange-400 text-left">
             About
           </h1>
-          <h1 className="text-5xl mb-10 text-cyan-700 text-left font-bold">
+          <h1 className="text-4xl mb-10 text-cyan-700 text-left font-bold">
             Dr B R Ambedkar National Institute of Technology, Jalandhar
           </h1>
           <p className="text-lg mb-10 text-left">
@@ -144,13 +144,14 @@ const Body = () => {
           </p>
         </div>
       </div>
+
       <div className="bg-cyan-700">
         <div className="flex mx-32 h-2/3">
           <div className=" ml-16 my-32 flex-shrink flex-grow ml-4">
             <h1 className="mb-5 font-bold text-2xl text-orange-400 text-left">
               Venue
             </h1>
-            <h1 className="text-5xl mb-10 text-white text-left font-bold">
+            <h1 className="text-4xl mb-10 text-white text-left font-bold">
               IGS AND IGC 2025
             </h1>
             <p className="text-lg mb-10 text-left">
@@ -197,6 +198,44 @@ const Body = () => {
               className="w-full object-cover my-36"
             />
           </div>
+        </div>
+      </div>
+
+      <div className="flex mx-32 h-2/3 my-32 ">
+        <div className="flex-shrink-0 mt-10">
+          <img
+            src="https://igc2024mit.com/assets/front/img/images/about_img01.jpg"
+            className="w-full object-cover"
+          />
+        </div>
+        <div className=" ml-16 flex-shrink flex-grow ml-4 ">
+          <h1 className="mb-5 font-bold text-2xl text-orange-400 text-left">
+            About
+          </h1>
+          <h1 className="text-4xl mb-10 text-cyan-700 text-left font-bold">
+          CIVIL ENGINEERING DEPARTMENT
+          </h1>
+          <p className="text-lg mb-10 text-left">
+            Established in the year 1990, The Department of Civil Engineering
+            holds the distinction of being the oldest among the 12 departments
+            at Dr. B R Ambedkar NIT Jalandhar. Over the years, it has evolved
+            into a distinguished center for excellence, fostering innovation and
+            conducting impactful research. 
+          </p>
+          <p className="text-lg mb-10 text-left">
+          The department boasts a dedicated
+            faculty and staff, highly motivated students, and an environment
+            that promotes innovative teaching and learning. The department
+            offers a range of academic programs, including the undergraduate
+            program B. Tech in Civil Engineering, postgraduate programs such as
+            M. Tech in Geotechnical & Geo-environmental Engineering, and
+            Structural & Construction Engineering. In addition, the department
+            also offers Ph.D. programs to cater to the research aspirations of
+            its students. Department of Civil Engineering at Dr. B R Ambedkar
+            NIT Jalandhar has established itself as a prominent institution,
+            equipping students with the necessary skills and knowledge to
+            succeed in the field of civil engineering.
+          </p>
         </div>
       </div>
     </div>

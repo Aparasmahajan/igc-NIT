@@ -5,6 +5,7 @@ import { Brocher } from "./components/brocher/Brocher";
 import { Footer } from "./components/footer/Footer";
 // import  Body  from "./components/Body/body"
 import Body from "./components/Body/body";
+import { Address } from "./components/address/Address";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       {/* <Brocher/> */}
       <Body/>
+      <Address/>
       <Footer/>
     </div>
   );

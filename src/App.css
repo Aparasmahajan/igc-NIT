@@ -1,3 +1,9 @@
 .App {
   text-align: center;
+  /* user-select: none; 
+  pointer-events: none;  */
+}
+::selection {
+  background-color: gold;
+  color: black;
 }
