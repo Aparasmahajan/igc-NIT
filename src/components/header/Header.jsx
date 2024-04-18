@@ -1,5 +1,5 @@
-// import "./Header.css";
-import Banner from "../banner/Banner";
+
+import Banner from "./banner/Banner";
 import header from "../../assets/header.png";
 export const Header = () => {
   return (<>
