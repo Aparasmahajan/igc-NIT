@@ -1,9 +1,50 @@
 import { CountdownTimer } from "../../assets/CountdownTimer";
-
+import land from "../../assets/land.jpg";
 const Body = () => {
   return (
     <div className="">
       <CountdownTimer className="timer" />
+      <div className="flex-shrink-0 mt-10 relative">
+        <div
+          className="absolute inset-0 flex items-center justify-center bg-no-repeat bg-cover"
+          style={{
+            backgroundImage: `url(${land})`,
+            height: "400px",
+            width: "100%",
+          }}
+        >
+          <div className="flex-shrink-0 mt-10 relative">
+            <div
+              className="absolute inset-0 flex items-center justify-left bg-no-repeat bg-cover"
+              style={{ backgroundImage: `url(${land})` }}
+            >
+              <div className="p-32 bg-white bg-opacity-60">
+                <span className="font-bold text-orange-400 mb-4">
+                  Welcome to
+                </span>
+                <h1 className="text-4xl font-bold text-cyan-700 mb-4">
+                  India Geotechnical Conference 2025
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="flex mx-32 h-2/3 my-32 ">
         <div className="flex-shrink-0 mt-10">
           <img
@@ -213,28 +254,28 @@ const Body = () => {
             About
           </h1>
           <h1 className="text-4xl mb-10 text-cyan-700 text-left font-bold">
-          CIVIL ENGINEERING DEPARTMENT
+            CIVIL ENGINEERING DEPARTMENT
           </h1>
           <p className="text-lg mb-10 text-left">
             Established in the year 1990, The Department of Civil Engineering
             holds the distinction of being the oldest among the 12 departments
             at Dr. B R Ambedkar NIT Jalandhar. Over the years, it has evolved
             into a distinguished center for excellence, fostering innovation and
-            conducting impactful research. 
+            conducting impactful research.
           </p>
           <p className="text-lg mb-10 text-left">
-          The department boasts a dedicated
-            faculty and staff, highly motivated students, and an environment
-            that promotes innovative teaching and learning. The department
-            offers a range of academic programs, including the undergraduate
-            program B. Tech in Civil Engineering, postgraduate programs such as
-            M. Tech in Geotechnical & Geo-environmental Engineering, and
-            Structural & Construction Engineering. In addition, the department
-            also offers Ph.D. programs to cater to the research aspirations of
-            its students. Department of Civil Engineering at Dr. B R Ambedkar
-            NIT Jalandhar has established itself as a prominent institution,
-            equipping students with the necessary skills and knowledge to
-            succeed in the field of civil engineering.
+            The department boasts a dedicated faculty and staff, highly
+            motivated students, and an environment that promotes innovative
+            teaching and learning. The department offers a range of academic
+            programs, including the undergraduate program B. Tech in Civil
+            Engineering, postgraduate programs such as M. Tech in Geotechnical &
+            Geo-environmental Engineering, and Structural & Construction
+            Engineering. In addition, the department also offers Ph.D. programs
+            to cater to the research aspirations of its students. Department of
+            Civil Engineering at Dr. B R Ambedkar NIT Jalandhar has established
+            itself as a prominent institution, equipping students with the
+            necessary skills and knowledge to succeed in the field of civil
+            engineering.
           </p>
         </div>
       </div>
