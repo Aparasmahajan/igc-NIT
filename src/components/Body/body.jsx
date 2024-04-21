@@ -23,7 +23,7 @@ const Body = () => {
                   Welcome to
                 </span>
                 <h1 className="text-4xl font-bold text-cyan-700 mb-4">
-                  India Geotechnical Conference 2025
+                  Indian Geotechnical Conference 2025
                 </h1>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Body = () => {
             <h1 className="text-4xl mb-10 text-white text-left font-bold">
               IGS AND IGC 2025
             </h1>
-            <p className="text-lg mb-10 text-left">
+            <p className="text-lg mb-10 text-left text-white">
               Indian Geotechnical Society (IGS) which is a prestigious
               professional body committed to the advancement and promotion of
               Geotechnical Engineering in India. The society was founded as the
@@ -118,7 +118,7 @@ const Body = () => {
               affiliation with the International Society for Soil Mechanics and
               Geotechnical Engineering (ISSMGE)
             </p>
-            <p className="text-lg mb-10 text-left">
+            <p className="text-lg mb-10 text-left text-white">
               The Indian Geotechnical Society (IGS) aims to promote
               collaboration among engineers and scientists to enhance and
               disseminate knowledge in the fields of Soil Mechanics, Foundation
@@ -129,7 +129,7 @@ const Body = () => {
               equipment manufacturers, and others interested in geotechnical
               activities.
             </p>
-            <p className="text-lg mb-10 text-left">
+            <p className="text-lg mb-10 text-left text-white">
               The Organizing Committee of the conference invites the original
               research and field case study papers from the researchers,
               academicians, industry practitioners for the presentation in the
@@ -195,7 +195,7 @@ const Body = () => {
             <h1 className="text-4xl mb-10 text-white text-left font-bold">
               IGS AND IGC 2025
             </h1>
-            <p className="text-lg mb-10 text-left">
+            <p className="text-lg mb-10 text-left text-white">
               Indian Geotechnical Society (IGS) which is a prestigious
               professional body committed to the advancement and promotion of
               Geotechnical Engineering in India. The society was founded as the
@@ -213,7 +213,7 @@ const Body = () => {
               affiliation with the International Society for Soil Mechanics and
               Geotechnical Engineering (ISSMGE)
             </p>
-            <p className="text-lg mb-10 text-left">
+            <p className="text-lg mb-10 text-left text-white">
               The Indian Geotechnical Society (IGS) aims to promote
               collaboration among engineers and scientists to enhance and
               disseminate knowledge in the fields of Soil Mechanics, Foundation
@@ -224,7 +224,7 @@ const Body = () => {
               equipment manufacturers, and others interested in geotechnical
               activities.
             </p>
-            <p className="text-lg mb-10 text-left">
+            <p className="text-lg mb-10 text-left text-white">
               The Organizing Committee of the conference invites the original
               research and field case study papers from the researchers,
               academicians, industry practitioners for the presentation in the
