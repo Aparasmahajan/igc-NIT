@@ -1,5 +1,4 @@
-import React from 'react'
-import "./Brocher.css"
+import React from 'react';
 import conferenceImage from "../../assets/conferenceImage.png";
 
 import { CountdownTimer } from '../../assets/CountdownTimer'

@@ -6,11 +6,13 @@ import { Footer } from "./components/footer/Footer";
 // import  Body  from "./components/Body/body"
 import Body from "./components/Body/body";
 import { Address } from "./components/address/Address";
+import Venue from "./components/venue/Venue";
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Venue/>
       <Navbar/>
       {/* <Brocher/> */}
       <Body/>

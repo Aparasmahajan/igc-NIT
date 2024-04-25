@@ -2,49 +2,25 @@ import { CountdownTimer } from "../../assets/CountdownTimer";
 import land from "../../assets/land.jpg";
 const Body = () => {
   return (
-    <div className="">
+    <div className="container mx-auto px-4">
       <CountdownTimer className="timer" />
-      <div className="flex-shrink-0 mt-10 relative">
+      <div className="grid relative ">
         <div
-          className="absolute inset-0 flex items-center justify-center bg-no-repeat bg-cover"
+          className="flex flex-col text-gray-800 p-20 rounded-lg  relative text-left  bg-white bg-opacity-75 "
           style={{
             backgroundImage: `url(${land})`,
             height: "400px",
             width: "100%",
+            backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="flex-shrink-0 mt-10 relative">
-            <div
-              className="absolute inset-0 flex items-center justify-left bg-no-repeat bg-cover"
-              style={{ backgroundImage: `url(${land})` }}
-            >
-              <div className="p-32 bg-white bg-opacity-60">
-                <span className="font-bold text-orange-400 mb-4">
-                  Welcome to
-                </span>
-                <h1 className="text-4xl font-bold text-cyan-700 mb-4">
-                  Indian Geotechnical Conference 2025
-                </h1>
-              </div>
-            </div>
-          </div>
+            <h1 className="  font-bold text-orange-400 mb-4 ">Welcome to</h1>
+            <h2 className="text-4xl font-bold text-cyan-700 mb-8  ">
+              Indian Geotechnical Conference 2025
+            </h2>
+            {/* <p className="text-lg mb-8">Add your content here</p> */}
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <div className="flex mx-32 h-2/3 my-32 ">
         <div className="flex-shrink-0 mt-10">
           <img
@@ -278,6 +254,58 @@ const Body = () => {
             engineering.
           </p>
         </div>
+      </div>
+    </div>
+  );
+  return (
+    <div className="container mx-auto px-4">
+      <CountdownTimer className="timer mb-10" />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div
+          className="flex flex-col space-y-4 bg-white bg-opacity-75 text-gray-800 p-4 rounded-lg shadow-md"
+          style={{
+            backgroundImage: `url(${land})`,
+            height: "400px",
+            width: "100%",
+          }}
+        >
+          <h1 className="text-3xl sm:text-4xl font-bold text-orange-400 mb-4">
+            Welcome to
+          </h1>
+          <h2 className="text-4xl sm:text-5xl font-bold text-cyan-700 mb-8">
+            Indian Geotechnical Conference 2025
+          </h2>
+          <p className="text-lg mb-8">{/* Add your content here */}</p>
+        </div>
+        <div className="relative">
+          {" "}
+          {/* Image section */}
+          <img
+            src={land}
+            className="w-full h-64 lg:h-auto object-cover rounded-lg"
+            alt="Land"
+          />
+        </div>
+
+        {/* Second Section (About) - Similar structure as first section */}
+        <div className="flex flex-col space-y-4 bg-cyan-700 text-white p-4 rounded-lg shadow-md">
+          <h1 className="text-3xl sm:text-4xl font-bold text-orange-400 mb-4">
+            About
+          </h1>
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-8">
+            IGS AND IGC 2025
+          </h2>
+          <p className="text-lg mb-8">{/* Add your content here */}</p>
+        </div>
+        <div className="relative">
+          <img
+            src="https://igc2024mit.com/assets/front/img/images/about_img01.jpg"
+            className="w-full h-64 lg:h-auto object-cover rounded-lg"
+            alt="About Image"
+          />
+        </div>
+
+        {/* Repeat similar structure for Venue and Civil Engineering Department sections */}
       </div>
     </div>
   );
