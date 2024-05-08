@@ -38,7 +38,7 @@ export const CountdownTimer = () => {
         flexDirection: "column",
         alignItems: "flex-end",
         position: "fixed",
-        top: "60%",
+        top: "55%",
         right: "0",
         zIndex: "1",
       }}
