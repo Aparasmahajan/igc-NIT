@@ -20,16 +20,16 @@ const Banner = () => {
           isMoving ? "animate-move" : ""
         }`}
       >
-        <div className="text-white text-xl font-bold">
+        <div className="text-white text-sm font-bold  mb-2">
           Click here to download the schedule of IGS Conference 2025 →
-          <a
+          <button
             href="#"
-            className="text-orange-400 hover:underline hover:animation-play-state: paused; text-xl font-bold "
+            className="text-orange-400 hover:underline hover:animation-play-state: paused; text-xl font-bold  text-base"
             onMouseEnter={() => handleHover(true)}
             onMouseLeave={() => handleHover(false)}
           >
             DOWNLOAD NOW
-          </a>
+          </button>
         </div>
       </div>
     </div>

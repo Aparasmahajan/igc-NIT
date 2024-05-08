@@ -8,17 +8,19 @@ import Body from "./components/Body/body";
 import { Address } from "./components/address/Address";
 import Venue from "./components/venue/Venue";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { CountdownTimer } from "./assets/CountdownTimer";
 function App() {
   return (
     <BrowserRouter>
     <div className="App">
       <Header/>
+      <CountdownTimer className="timer" />
       
       <Navbar/>
       {/* <Brocher/> */}
       <Routes>
-          <Route path="/" element={<Venue />} />
-          <Route path="/body" element={<Body />} />
+          <Route path="/venue" element={<Venue />} />
+          <Route path="/" element={<Body />} />
       </Routes>
           <Address/>
       <Footer/>

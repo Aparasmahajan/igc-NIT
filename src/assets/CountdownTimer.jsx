@@ -40,25 +40,31 @@ export const CountdownTimer = () => {
         position: "fixed",
         top: "60%",
         right: "0",
-        zIndex: "999",
-        padding: "0px",
+        zIndex: "1",
       }}
     >
-      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
-        {formatLabel(timeLeft.days, "Days")} <br />
-        <p className="font-bold">{timeLeft.days}</p>
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-10 text-[10px]">
+        <div className="my-[4px]">
+          {formatLabel(timeLeft.days, "Days")} <br />
+          <p className="font-bold text-xs">{timeLeft.days}</p>
+        </div>
       </div>
-      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
-        {formatLabel(timeLeft.hours, "Hours")} <br />
-        <p className="font-bold">{timeLeft.hours}</p>
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-10 text-[10px]">
+        <div className="my-[4px]">
+          {formatLabel(timeLeft.hours, "Hours")} <br />
+          <p className="font-bold text-xs">{timeLeft.hours}</p>
+        </div>
       </div>
-      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
-        {formatLabel(timeLeft.minutes, "Minutes")} <br />
-        <p className="font-bold">{timeLeft.minutes}</p>
-      </div>
-      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-16">
-        {formatLabel(timeLeft.seconds, "Seconds")} <br />
-        <p className="font-bold">{timeLeft.seconds}</p>
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-10 text-[10px]">
+        <div className="my-[4px]">
+          {formatLabel(timeLeft.minutes, "Minutes")} <br />
+          <p className="font-bold text-xs">{timeLeft.minutes}</p>
+        </div>
+      <div className="flex-col items-center justify-center flex h-2/3 border border-orange-400 bg-teal-700 text-white w-10 text-[10px]"></div>
+        <div className="my-[4px]">
+          {formatLabel(timeLeft.seconds, "Seconds")} <br />
+          <p className="font-bold text-xs">{timeLeft.seconds}</p>
+        </div>
       </div>
     </div>
   );

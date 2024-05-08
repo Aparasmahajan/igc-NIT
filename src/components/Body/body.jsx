@@ -3,7 +3,6 @@ import land from "../../assets/land.jpg";
 const Body = () => {
   return (
     <div className="container mx-auto px-4">
-      <CountdownTimer className="timer" />
       <div className="grid relative ">
         <div
           className="flex flex-col text-gray-800 p-20 rounded-lg  relative text-left  bg-white bg-opacity-75 "
