@@ -18,10 +18,8 @@ import Sponsors from "./sponsors/Sponsors";
 import Templates from "./templates/Templates";
 import Venue from "./venue/Venue";
 import Workshop from "./workshop/Workshop";
-import home from "./home/home";
 
 export {
-  home,
   OrganizingCommitte,
   AdvisoryCommitte,
   TechnicalCommittee,

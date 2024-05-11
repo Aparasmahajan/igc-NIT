@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import {
-  home,
   OrganizingCommitte,
   AdvisoryCommitte,
   TechnicalCommittee,
@@ -24,14 +23,14 @@ import {
   Registrations,
   Login,
 } from "../screens";
+import Body from "../components/Body/body";
 
 function NavbarRouter() {
   return (
     <Routes>
-      <Route path="/" element={<home />} />
+      <Route path="/" element={<Body />} />
       {/* <Route path="/body" element={<Body />} /> */}
       {/* below componets are taken with the refrence of the navbar in orignal website */}
-      <Route path="/home" element={<p>home</p>} />
       <Route path="/organizing-committe" element={<OrganizingCommitte />} />
       <Route path="/advisory-committe" element={<AdvisoryCommitte />} />
       <Route path="/technical-committee" element={<TechnicalCommittee />} />
@@ -52,6 +51,7 @@ function NavbarRouter() {
       <Route path="/contacts" element={<Contacts />} />
       <Route path="/registrations" element={<Registrations />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/*" element={<p className="justify-centre">Element not found</p>} />
     </Routes>
   );
 }

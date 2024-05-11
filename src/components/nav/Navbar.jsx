@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <ul className="flex flex-wrap justify-center lg:justify-between lg:mx-10 text-xs mb-6 my-5 text-gray-500 space-x-2">
       <li className="font-bold hover:text-orange-300">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li className="font-bold hover:text-orange-300">
         <Link to="/organizing-committe">Organizing Committee</Link>
