@@ -2,8 +2,6 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-// import "./Navbar.css"
-import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <ul className="flex flex-wrap justify-center lg:justify-between lg:mx-10 text-xs mb-6 my-5 text-gray-500 space-x-2">

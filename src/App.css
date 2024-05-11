@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  /* overflow-x: hidden; */
-  /* user-select: none; 
-  pointer-events: none;  */
+  overflow-x: hidden; 
+   user-select: none; 
+  pointer-events: none; 
 }
 ::selection {
   background-color: gold;
